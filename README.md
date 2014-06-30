@@ -1,2 +1,3 @@
 #My Blog 
-##Generated with jekyll
+
+My website. Powered by Jekyll. Hosted with Amazon's Web Services S3.
