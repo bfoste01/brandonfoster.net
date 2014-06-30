@@ -1,3 +1,3 @@
 #My Blog 
 
-My website. Powered by Jekyll. Hosted with Amazon's Web Services S3.
+My website. Borrowed PersonalFlatPage front end ideas. Powered by Jekyll. Hosted with Amazon's Web Services S3.
