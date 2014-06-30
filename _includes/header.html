@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+
+{% if site.owner.twitter %}<!-- Twitter Cards -->
+{% if page.image.feature %}<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}/imag/{{ bf-logo.png }}">
+{% else %}<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/img/{{ bf-logo.png }}{% endif %}">{% endif %}
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:creator" content="@{{ site.owner.twitter }}">{% endif %}
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+<html lang="en">
+      <meta charset="utf-8">
+      <title>brandonfoster.net</title>
+      <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+      <link href = "/css/style.css" media = "screen" type="text/css" rel = "stylesheet">
+      <link href = "/css/animate.css" type="text/css" rel = "stylesheet">
+      <link rel = "stylesheet" type = "text/css" media = "(max-width:990px)" href = "/css/style-responsive-tablet.css">
+      <link rel = "stylesheet" type = "text/css" media = "(max-width:500px)" href = "/css/style-responsive-phone.css">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <div id = "main" >
+        <div class = "display">
+          <div class = "main-title">
+            <div class = "content-title">
+              <a class = "brand" href = "/" >Brandon Foster</a>
+            </div>
+            <div class = "content-subtitle">
+              <div id = "desc-anim">
+                <div id = "hinging">
+                  <div class = "btn-desc">
+                    <a class = "butt">Data Scientist</a>
+                  </div>
+                </div>
+                <div id = "hinging1">
+                  <div class = "btn-desc">
+                    <a class = "butt">Social Science Researcher</a>
+                  </div>
+                </div>
+                <div id = "hinging2">
+                  <div class = "btn-desc">
+                    <a class = "butt">Nice Person</a>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div style="font-weight:400;">
+                </div>
+            </div>
+          </div>
+        </div>
+          <div class = "display">
+              <div id = "grid">
+                <div class = "grid">
+                  <ul class = "icon-grid">
+                    
+                      <li class = "icon-list">
+                        <a href = "about" class = " transition first">
+                          <div class = "circle rotate">
+                            <p>About</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li class = "icon-list">
+                        <a href = "blog" class = " transition second">
+                          <div class = "circle2 rotate">
+                            <p>Blog</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li class = "icon-list">
+                        <a href="key-skills" class = " transition third">
+                          <div class = "circle1 rotate">
+                            <p>Key Skills</p>
+                          </div></a>
+                      </li>
+                      <li class = "icon-list">
+                      <a href="mailto:{{ site.owner.email }}" class = "social"><img class = "rotate" src = "/img/email2.png"></a>
+                      </li>
+                      <li class = "icon-list">
+                        <a href = "https://github.com/bfoste01" class = "social"><img class = "rotate" src = "/img/github.png"></a>
+                        </li>
+                      <li class = "icon-list">
+                        <a href = "https://instagram.com/bfoste01" class = "social"><img class = "rotate" src = "/img/instagram2.png"></a>
+                      </li>
+                      <li class = "icon-list">
+                        <a href = "https://twitter.com/bfoste01" class = "social"><img class = "rotate" src = "/img/twitter.png"></a>
+                      </li>
+                      <li class = "icon-list">
+                        <a href = "https://plus.google.com/103360747239435042758/posts" class = "social"><img class = "rotate" src = "/img/google.png"></a>
+                      </li>     
+                      <li class = "icon-list">
+                        <a href = "https://facebook.com/brandon.foster.336" class = "social"><img class = "rotate" src = "/img/facebook.png"></a>
+                      </li>              
+                  </ul>
+              </div>
+          </div>
+        </div>
+            </a>
+          </div>
+        </div>
+      </div>

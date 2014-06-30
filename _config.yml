@@ -1,0 +1,22 @@
+name: Brandon Foster
+description: "I do data science related things, social science research and go to graduate school. Sometimes I write about it. You can find those musings here, among other items related to my professional life."
+# Owner/author information
+owner:
+  name:           Brandon Foster
+  avatar:         b-suit.jpeg
+  bio:            
+  email:          brandon.foster@tufts.edu
+
+url: 
+pagination: 5
+avatar: bf-logo.png
+markdown: rdiscount
+permalink: pretty
+highlighter: pygments
+paginate: 5
+comments: true
+project_dir: /projects/example
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-51167901-2
+google_verify: GBKDoh0ztU4oHsoQFXudjLI3pUjpMQ04ujuqdspBzhk
+

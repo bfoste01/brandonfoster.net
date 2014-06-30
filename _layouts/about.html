@@ -1,0 +1,33 @@
+<html>
+{% include header.html %}
+	<div class ="row-fluid">
+		<div class="span8">
+			<div class="big-text">
+			{{ content }}
+			</div>
+		</div>
+		<div class = "social-networks">
+			<li class="twitter this-social-network"><a href="https://twitter.com/bfoste01"><img src="/img/icons/twitter.png"></a></li>
+			<li class="google this-social-network"><a href="https://plus.google.com/103360747239435042758/posts"><img src="/img/icons/google.png"></a></li>
+			<li class="github this-social-network"><a href="https://github.com/bfoste01"><img src="/img/icons/github.png"></a></li>
+			<br/>
+		</div>
+	</div>
+<div class="footer">
+  <footer>
+    {% include footer.html %}
+  </footer>
+</div>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-51167901-2', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->         
+</html>

@@ -1,0 +1,58 @@
+body {
+	-webkit-transition-timing-function: linear;
+	background-color: #606060;
+	background-image:none;
+}
+.butt{
+	margin-top: 10px;
+}
+.main-title{
+	padding-top: 70px;
+}
+.main-title2{
+	width:90%;
+	margin-left: 8%;
+	margin-bottom: 70px;
+}
+.content-title{
+	width: 100%;
+}
+.content-subtitle{
+	width: 100%;
+	margin-top: 15px;
+}
+.grid{
+	width: 100%;
+	margin-top: 120px;
+}
+
+.icon-grid{
+	width: 100%;
+}
+
+.icon-list img{
+	width: 5.2em;
+}
+.icon-list{
+	padding-left: 0px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#content{
+	width: 98%;
+}
+.text{
+	width: 85%;
+}
+
+#about{
+	width: 98%;
+}
+
+#project{
+	width: 98%;
+}
+.card-grid{
+	margin: 0 auto;
+	width: 80%;
+}

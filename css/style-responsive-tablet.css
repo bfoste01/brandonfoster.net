@@ -1,0 +1,53 @@
+body{
+	background-color: #606060;
+	background-image:none;
+}
+
+.content-title{
+	width: 100%;
+}
+
+.content-subtitle{
+	width: 100%;
+	margin-top: 15px;
+}
+
+.grid{
+	width: 60%;
+}
+
+#content: {
+	width:95%;
+}
+
+.text{
+	width: 80%;
+}
+.ribbon{
+    display: block;
+    position: relative;
+}
+
+.ribbon-content{
+	padding-top: 15px;
+}
+
+.social-icon{
+  margin: 0 auto;
+  margin-left: 5%;
+  width: 95%;
+}
+
+.icon{
+  display: inline-block;
+  width: 20%;
+}
+
+.icon img{
+	width: 80%;
+}
+
+.card-grid{
+	margin: 0 auto;
+	width: 90%;
+}

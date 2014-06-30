@@ -1,0 +1,40 @@
+---
+layout: archive
+---
+<div id = "content" class = "">
+{% for post in site.categories.blog limit:4 %}
+        <div class = "ribbon">
+          <div class = "ribbon-content">
+            {{ post.date | date: "%m %d %Y" }}
+          </div>
+        </div>
+        <div class = "text">
+          <div class = "title">
+            <h3>{{ post.title}}</h3>
+          </div>
+          <div class = "tags">
+            <i class="icon-tags"></i> 
+            {% for tag in post.tags %} 
+            <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">
+              <u>
+                {{ tag }}
+              </u>
+            </a>  
+            {% if forloop.last != true %} 
+            {% endif %} 
+            {% endfor %}
+          </div>
+          <p>{{ post.content |truncatewords: 100 }}</p>
+          <div class = "article">
+            <p>
+              <a href="{{ post.url }}">Continue Reading ...</a>
+            </p>
+          </div>
+        
+        </div>
+     
+{% endfor %}
+  <div class = "archive">
+    <a href = "/archive">Read More Posts</a>
+  </div>
+</div>
