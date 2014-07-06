@@ -46,6 +46,11 @@ body{
 .icon img{
 	width: 80%;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 
 .card-grid{
 	margin: 0 auto;

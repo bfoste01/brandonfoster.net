@@ -35,6 +35,12 @@ a{
 	font-weight: 300;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
 .circle{
   -vendor-animation-duration: 4s;
   -vendor-animation-delay: 2s;

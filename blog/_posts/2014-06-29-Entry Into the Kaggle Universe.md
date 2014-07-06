@@ -9,7 +9,7 @@ tags:  [kaggle, data scientist, machine learning]
 
 I've decided to enter into some [Kaggle](https://www.kaggle.com) competitions this year. Kaggle is a platform for data scientists to compete in predictive analytic challenges. Some of these competitions pay out cash prizes, and some of these prizes are quite sizable, other competitions pay nothing. 
 
-I'm not in it for the money. Realistically, there are a lot of pros gunning for those prizes. I'd like to get to that level at some point, but for now this experience is about me applying some of the machine learning techniques I've been emersed in to datasets. I hope that my involvemnt in the challenges help me:
+I'm not in it for the money. Realistically, there are a lot of pros gunning for those prizes. I'd like to get to that level at some point, but for now this experience is about me applying some of the machine learning techniques I've been immersed in to datasets. I hope that my involvement in the challenges help me:
 
 - Have a focused and finite outlet for the machine learning techniques I have been learning. 
 - Advance my Python and R skills in a new context. 
